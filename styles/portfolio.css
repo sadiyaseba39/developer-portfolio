@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* header and  navigation styles*/
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.text-primary {
+  color: #FD6E0A;
+}
+.header{
+  background-color:#FFF8F3;
+  background-image: url('../images/header_bg.png'),url('../images/developer.png');
+  background-repeat: no-repeat;
+  background-position:bottom right,left ;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 200px;
+
+}
+
+nav li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+nav ul {
+  display: flex;
+}
+
+.button-primary {
+  color: white;
+  background:#FD6E0A;
+  height: 45px;
+  width: 110px;
+  padding: 10px 8px;
+  border-radius: 4.5px;
+  border: none;
+  font-weight: 400;
+  font-size: 14px;
+}
+            /*banner styles*/
+.banner{
+  display: flex;
+  align-items: center;
+  margin: 0 200px;
+
+}
+.banner-title{
+font-weight: 900;
+font-size: 80px;
+}
+.banner-sub{
+font-weight: 700;
+font-size:40px;
+margin-bottom: 25px;
+}
+.description{
+  color: rgb(87, 109, 189);
+  font-size: 17px;
+  margin-bottom: 25px;
+}
+.button2{
+color:#FD6E0A;
+height: 44px;
+width: 110px;
+border-color:#FD6E0A;
+border-radius: 4.5px;
+border-style: solid;
+}
+/*  styling section*/
+main{
+  max-width: 1140px;
+  margin:0 auto; /* works for the tags or parts inside this tag*/
+}
+.about{
+  background-color: #FFF8F3;
+  margin-top: 130px;
+  border-radius: 10px;
+  padding: 130px 155px;
+  text-align: center;
+}
+.section-title{
+  font-size: 37px;
+  font-weight: 700;
+  
+  margin-bottom: 30px;
+}
+.section-description{
+ 
+  width: 730px;
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #757575;
+  
+}
+.about-info-container{
+  display: flex;
+  justify-content: space-around;
+}
+.info-title{
+font-size: 20px;
+color: #757575;
+}
+.info-description{
+font-weight: 600;
+font-size: 20px;
+color: #474747;
+}
